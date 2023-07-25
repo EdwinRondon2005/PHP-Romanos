@@ -1,0 +1,107 @@
+body 
+{
+    box-sizing: border-box;
+    background-color: white;
+    font-family: 'Roboto';
+}
+
+* 
+{
+    padding: 0;
+    margin: 0;
+}
+
+h1 
+{
+    color: white;
+}
+
+header 
+{
+    background: rgba(0, 0, 0, 0.9);
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+}
+
+nav
+{
+    float: left;
+}
+
+nav ul
+{
+    list-style: none;
+    overflow: hidden;
+}
+
+nav ul li
+{
+    float: left;
+    font-family: 'Roboto';
+    font-size: 16px;
+}
+
+nav ul li
+{
+    display: block;
+    padding: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.contenido
+{
+    padding-top: 80px;
+}
+
+.wrapper
+{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+button[type = "submit"]
+{
+    background-color: rgb(0, 109, 0);
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: 'Roboto';
+    margin-left: 10px;
+}
+
+button[type = "submit"]:hover 
+{
+    background-color: #3EAD47;
+}
+
+form
+{
+    text-align: center;
+    margin: 20px;
+    padding: 100px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgb(146, 146, 146);
+    width: 400px;
+}
+
+input[type = "text"]
+{
+    padding: 10px;
+    border-radius: 3px;
+    border: 1px solid #808080;
+    margin-top: 20px;
+    font-family: 'Roboto';
+    outline: none;
+}
+
+input[type = "text"]:hover
+{
+    border-color: blue;
+}
